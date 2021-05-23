@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pen"
+        app:showAsAction="always"
+        android:icon="@drawable/pencil"
+        android:iconTint="@color/black"
+        android:title="Pen"/>
+
+    <item android:id="@+id/eraser"
+        app:showAsAction="always"
+        android:icon="@drawable/eraser"
+        android:iconTint="@color/black"
+        android:title="Erase"/>
+
+    <item android:id="@+id/ocr"
+        app:showAsAction="always"
+        android:icon="@drawable/convert"
+        android:iconTint="@color/black"
+        android:title="Erase"/>
+
+</menu>
